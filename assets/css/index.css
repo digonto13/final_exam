@@ -3,4 +3,46 @@
 }
 .row{
     text-align: center;
+    
 }
+.banar h1 p{
+    margin-top: 300px;
+}
+.heading{
+    position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.card-body-i{
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    border: 3px solid yellow;
+}
+.card-body-i i{
+    margin-top: 15px;
+}
+#imgcontol{
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: 170px;
+    height: 170px;
+    border-radius: 40%;
+    
+    background-color:#e7e7e7;
+}
+.card-body{
+    text-align: center;
+}
+#cardcontol{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+

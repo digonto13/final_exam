@@ -26,6 +26,9 @@
         float: left;
         padding: 5%;
     }
+    h2{
+      float: left;
+    }
     
     </style>
 </head>
@@ -48,13 +51,12 @@
               </ul>
             </div>
           </div>
-          <nav class="navbar  navbar-light bg-light">
-            <div class="container-fluid">
+          <nav class="navbar  navbar-light bg-light ">
+            <div class="container " id="manu">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <h2>PHOTOBOOKS</h2>
-              
+              <h3 class="">PHOTOBOOKS</h3>
               <p class="bg-warning ">+88034545435</p>
             </div>
           </nav>
@@ -62,57 +64,88 @@
     <!--banar-->
     <div class="">
         <div class="row">
+           
             <div class="banar">
-                <h1 class="heading"> 
-                    Create your own photostory
-                </h1>
-                <p>Make your photobook online</p>
-
                 <img src="assets/image/banar.png" class="img-fluid" alt="banar">
-
             </div>
-
+            <div class="heading">
+              <h1> 
+                Create your own photostory
+            </h1>
+            <p>Make your photobook online</p>
+            </div>
         </div>
      </div>
      <!--icon section-->
-     <div class="row">
+     <div class="row mt-5">
         <div class="col">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
+            <div >
+                <div class="card-body-i">
                     <i class="fas fa-cloud-download-alt"></i>
-                  <p>Download  photo</p>
+                  
                 </div>
+                <p>Download  photo</p>
               </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
+            <div >
+                <div class="card-body-i">
                     <i class="fas fa-desktop"></i>
+                    
+                  </div>
                   <p>Design your photobook</p>
-                </div>
               </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
+            <div >
+                <div class="card-body-i">
                     <i class="fas fa-hand-holding-usd"></i>
-                  <p>Pay for service</p>
                 </div>
+                <p>Pay for service</p>
               </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
+            <div>
+                <div class="card-body-i">
                     <i class="fas fa-cart-arrow-down"></i>
-                  <p>Get your photobook</p>
                 </div>
+                <p>Get your photobook</p>
               </div>
           </div>
      </div>
       <!--icon end section-->
 
       <!--Advace section-->
-      <div class="">
+      <div class="bg-light mt-5">
+        <div class="card-group">
+          <div class="card">
+            <img src="assets/image/s.png" class="card-img-top " alt="socila" id="imgcontol">
+            <div class="card-body">
+              <h6 class="card-title">Import photos  from your social networks</h6>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/image/cak.png" class="card-img-top" alt="cat" id="imgcontol">
+            <div class="card-body">
+              <h6 class="card-title">Photo editing</h6>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/image/s.png" class="card-img-top" alt=".Ta" id="imgcontol">
+            <div class="card-body">
+              <h6 class="card-title">Templates</h6>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 
           <div class="row">
 
             <h3 style="text-align: center;">Advantage</h3>
@@ -137,7 +170,8 @@
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
                 </div>
               </div>
-          </div>
+          </div> 
+          -->
           <div class="d-grid gap-2 col-4 mx-auto mt-5">
             <button class="btn btn-danger" type="button">Button</button>
           </div>
@@ -145,7 +179,7 @@
       </div>
        <!--Advace section end-->
        <!--Ready Section-->
-       <div class="row mt-5">
+       <div class="row mt-5 " id="cardcontol">
            <h3 style="text-align: center;">RADY SOLUTIONS</h3>
 
            <div class="card bg-warning  mb-3 mx-4 mt-3" style="max-width: 18rem;">
@@ -199,7 +233,7 @@
           <div class="carousel-item active" data-bs-interval="10000">
             
             <img src="assets/image/carasol.png" class="d-block w-100" alt="pic1">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" id="carouselControl">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
